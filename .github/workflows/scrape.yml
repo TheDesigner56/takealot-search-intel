@@ -1,0 +1,32 @@
+name: Scrape Takealot Daily
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # 06:00 UTC every day
+  workflow_dispatch:      # Manual trigger button
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run scraper
+        run: python scripts/scrape.py
+
+      - name: Commit & push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "scrape: $(date -u +%Y-%m-%d)"
+          git push

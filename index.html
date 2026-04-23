@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Takealot Search Arbitrage Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<header>
+  <h1>🔍 Takealot Search Arbitrage Dashboard</h1>
+  <p>Exploiting broken semantic search for pricing power. Free forever.</p>
+  <div id="status-bar">
+    <span id="last-scraped">Loading...</span>
+    <span id="avg-quality">Avg Quality: --</span>
+    <span id="opp-count">Opportunities: --</span>
+  </div>
+</header>
+
+<main>
+  <section class="grid-2">
+    <div class="card">
+      <h2>🎯 Top Opportunities</h2>
+      <p class="subtitle">Queries with &lt;50% relevance = easy arbitrage wins</p>
+      <div id="opportunities-table"></div>
+    </div>
+    <div class="card">
+      <h2>📊 Quality Scores by Query</h2>
+      <canvas id="quality-chart"></canvas>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>🔎 Full Query Breakdown</h2>
+    <div id="query-breakdown"></div>
+  </section>
+
+  <section class="card">
+    <h2>📈 Quality Trend (if historical data exists)</h2>
+    <canvas id="trend-chart"></canvas>
+  </section>
+
+  <section class="card">
+    <h2>💰 Price Intelligence (Top Opportunity)</h2>
+    <div id="price-intel"></div>
+  </section>
+</main>
+
+<footer>
+  <p>Data sourced from <code>api.takealot.com</code> via unauthenticated endpoints. No affiliation.</p>
+  <p>Runs on GitHub Pages + Actions. Costs $0.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

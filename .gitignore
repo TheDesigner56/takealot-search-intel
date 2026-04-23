@@ -1,0 +1,5 @@
+# Ignore everything in data except latest.json
+# (Historical snapshots are committed by Actions, but local runs shouldn't clutter git)
+*.pyc
+__pycache__/
+.DS_Store
