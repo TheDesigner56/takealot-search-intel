@@ -1,4 +1,4 @@
-const DATA_URL = 'data/latest.json';
+const DATA_URL = '/data/latest.json';
 const HISTORY_URLS = [];
 
 let qualityChart = null;
@@ -13,7 +13,8 @@ async function loadData() {
     await loadHistory();
   } catch (err) {
     document.getElementById('opportunities-table').innerHTML =
-      `<div class="loading">Error loading data: ${err.message}<br>Run <code>python scripts/scrape.py</code> to generate data.</div>`;
+      `<div class="loading">❌ Error loading data: ${err.message}<br><br>Make sure <code>data/latest.json</code> exists.<br>If running locally: <code>python scripts/scrape.py</code></div>`;
+    document.getElementById('status-bar').innerHTML = '<span style="color:#ff6b6b">Failed to load data</span>';
   }
 }
 
@@ -161,7 +162,7 @@ async function loadHistory() {
   const history = [];
   for (const date of dates) {
     try {
-      const res = await fetch(`data/${date}.json`);
+      const res = await fetch(`/data/${date}.json`);
       if (res.ok) history.push(await res.json());
     } catch (e) { /* ignore missing files */ }
   }

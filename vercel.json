@@ -1,20 +1,4 @@
 {
   "version": 2,
-  "public": true,
-  "github": {
-    "enabled": true,
-    "silent": true
-  },
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ]
+  "public": true
 }

@@ -4,7 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Takealot Search Arbitrage Dashboard</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/style.css">
+<style>
+/* Critical fallback styles so it never looks white/broken */
+body{font-family:system-ui,-apple-system,sans-serif;background:#0b0c10;color:#c5c6c7;line-height:1.6;margin:0}
+header{background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);padding:2rem;border-bottom:2px solid #66fcf1}
+h1{color:#66fcf1;margin:0 0 .25rem}
+.card{background:#1f2833;border:1px solid #374151;border-radius:10px;padding:1.25rem;margin:1rem 0}
+h2{color:#66fcf1;font-size:1.15rem;margin:0 0 .5rem}
+.loading{color:#feca57;padding:1rem;font-style:italic}
+table{width:100%;border-collapse:collapse;font-size:.85rem}
+th{text-align:left;color:#66fcf1;border-bottom:2px solid #66fcf1;padding:.5rem}
+td{padding:.5rem;border-bottom:1px solid #374151}
+.scorebar{height:6px;background:#374151;border-radius:3px;overflow:hidden}
+.scorebar>div{height:100%;border-radius:3px}
+footer{text-align:center;padding:2rem;color:#555;font-size:.8rem;border-top:1px solid #374151}
+</style>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 </head>
 <body>
@@ -52,6 +67,6 @@
   <p>Runs on GitHub Pages + Actions. Costs $0.</p>
 </footer>
 
-<script src="app.js"></script>
+<script src="/app.js"></script>
 </body>
 </html>
