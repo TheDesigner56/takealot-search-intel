@@ -4,69 +4,169 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Takealot Search Arbitrage Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
-<style>
-/* Critical fallback styles so it never looks white/broken */
-body{font-family:system-ui,-apple-system,sans-serif;background:#0b0c10;color:#c5c6c7;line-height:1.6;margin:0}
-header{background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);padding:2rem;border-bottom:2px solid #66fcf1}
-h1{color:#66fcf1;margin:0 0 .25rem}
-.card{background:#1f2833;border:1px solid #374151;border-radius:10px;padding:1.25rem;margin:1rem 0}
-h2{color:#66fcf1;font-size:1.15rem;margin:0 0 .5rem}
-.loading{color:#feca57;padding:1rem;font-style:italic}
-table{width:100%;border-collapse:collapse;font-size:.85rem}
-th{text-align:left;color:#66fcf1;border-bottom:2px solid #66fcf1;padding:.5rem}
-td{padding:.5rem;border-bottom:1px solid #374151}
-.scorebar{height:6px;background:#374151;border-radius:3px;overflow:hidden}
-.scorebar>div{height:100%;border-radius:3px}
-footer{text-align:center;padding:2rem;color:#555;font-size:.8rem;border-top:1px solid #374151}
-</style>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 </head>
 <body>
-<header>
-  <h1>🔍 Takealot Search Arbitrage Dashboard</h1>
-  <p>Exploiting broken semantic search for pricing power. Free forever.</p>
-  <div id="status-bar">
-    <span id="last-scraped">Loading...</span>
-    <span id="avg-quality">Avg Quality: --</span>
-    <span id="opp-count">Opportunities: --</span>
-  </div>
-</header>
 
-<main>
-  <section class="grid-2">
-    <div class="card">
-      <h2>🎯 Top Opportunities</h2>
-      <p class="subtitle">Queries with &lt;50% relevance = easy arbitrage wins</p>
-      <div id="opportunities-table"></div>
+<div class="app">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo">◈</div>
+      <div>
+        <div class="brand-name">Arbitrage</div>
+        <div class="brand-sub">Search Intel</div>
+      </div>
     </div>
-    <div class="card">
-      <h2>📊 Quality Scores by Query</h2>
-      <canvas id="quality-chart"></canvas>
+    <nav>
+      <a href="#" class="nav-item active">
+        <span class="nav-icon">◉</span>
+        <span>Opportunities</span>
+      </a>
+      <a href="#queries" class="nav-item">
+        <span class="nav-icon">◎</span>
+        <span>Query Breakdown</span>
+      </a>
+      <a href="#trends" class="nav-item">
+        <span class="nav-icon">◈</span>
+        <span>Trends</span>
+      </a>
+      <a href="#pricing" class="nav-item">
+        <span class="nav-icon">◊</span>
+        <span>Price Intel</span>
+      </a>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="status-dot"></div>
+      <span id="last-scraped">Loading...</span>
     </div>
-  </section>
+  </aside>
 
-  <section class="card">
-    <h2>🔎 Full Query Breakdown</h2>
-    <div id="query-breakdown"></div>
-  </section>
+  <!-- Main -->
+  <main class="main">
 
-  <section class="card">
-    <h2>📈 Quality Trend (if historical data exists)</h2>
-    <canvas id="trend-chart"></canvas>
-  </section>
+    <!-- Header -->
+    <header class="topbar">
+      <div>
+        <h1>Takealot Search Arbitrage</h1>
+        <p class="subtitle">Exploit broken semantic search for pricing power</p>
+      </div>
+      <div class="topbar-actions">
+        <button class="btn btn-ghost" onclick="window.open('https://github.com/TheDesigner56/takealot-search-intel','_blank')">GitHub</button>
+        <button class="btn btn-primary" onclick="location.reload()">⟳ Refresh</button>
+      </div>
+    </header>
 
-  <section class="card">
-    <h2>💰 Price Intelligence (Top Opportunity)</h2>
-    <div id="price-intel"></div>
-  </section>
-</main>
+    <!-- KPI Cards -->
+    <section class="kpi-grid" id="kpi-section">
+      <div class="kpi-card loading-skeleton">
+        <div class="kpi-label">Avg Search Quality</div>
+        <div class="kpi-value" id="kpi-quality">--</div>
+        <div class="kpi-delta" id="kpi-quality-delta">vs yesterday</div>
+      </div>
+      <div class="kpi-card loading-skeleton">
+        <div class="kpi-label">Active Opportunities</div>
+        <div class="kpi-value" id="kpi-opps">--</div>
+        <div class="kpi-delta" id="kpi-opps-delta">queries with &lt;55% relevance</div>
+      </div>
+      <div class="kpi-card loading-skeleton">
+        <div class="kpi-label">HIGH Potential</div>
+        <div class="kpi-value" id="kpi-high">--</div>
+        <div class="kpi-delta" id="kpi-high-delta">immediate action items</div>
+      </div>
+      <div class="kpi-card loading-skeleton">
+        <div class="kpi-label">Queries Tracked</div>
+        <div class="kpi-value" id="kpi-queries">--</div>
+        <div class="kpi-delta">gaming & toy categories</div>
+      </div>
+    </section>
 
-<footer>
-  <p>Data sourced from <code>api.takealot.com</code> via unauthenticated endpoints. No affiliation.</p>
-  <p>Runs on GitHub Pages + Actions. Costs $0.</p>
-</footer>
+    <!-- Opportunities -->
+    <section class="section" id="opportunities">
+      <div class="section-header">
+        <h2>🎯 Top Opportunities</h2>
+        <p>Queries where Takealot search is broken enough to create pricing power</p>
+      </div>
+      <div class="opp-grid" id="opportunities-grid">
+        <div class="loading-skeleton" style="height:160px;border-radius:12px"></div>
+        <div class="loading-skeleton" style="height:160px;border-radius:12px"></div>
+        <div class="loading-skeleton" style="height:160px;border-radius:12px"></div>
+      </div>
+    </section>
 
+    <!-- Charts Row -->
+    <section class="grid-2" id="queries">
+      <div class="section">
+        <div class="section-header">
+          <h2>📊 Quality Scores</h2>
+          <p>Lower scores = bigger arbitrage windows</p>
+        </div>
+        <div class="chart-container">
+          <canvas id="quality-chart"></canvas>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header">
+          <h2>📈 7-Day Trend</h2>
+          <p>Track search degradation over time</p>
+        </div>
+        <div class="chart-container">
+          <canvas id="trend-chart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Query Breakdown Table -->
+    <section class="section">
+      <div class="section-header">
+        <h2>🔎 Full Query Breakdown</h2>
+        <p>Every query, scored and ranked</p>
+      </div>
+      <div class="table-wrap">
+        <table class="data-table" id="query-table">
+          <thead>
+            <tr>
+              <th>Query</th>
+              <th>Niche</th>
+              <th>Quality</th>
+              <th>Drift</th>
+              <th>Top Result Price</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="query-tbody">
+            <tr><td colspan="6" class="loading-cell">Loading data...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Price Intel -->
+    <section class="section" id="pricing">
+      <div class="section-header">
+        <h2>💰 Price Intelligence</h2>
+        <p>What buyers currently pay for the top opportunity</p>
+      </div>
+      <div class="price-grid" id="price-grid">
+        <div class="loading-skeleton" style="height:120px;border-radius:12px"></div>
+        <div class="loading-skeleton" style="height:120px;border-radius:12px"></div>
+        <div class="loading-skeleton" style="height:120px;border-radius:12px"></div>
+        <div class="loading-skeleton" style="height:120px;border-radius:12px"></div>
+      </div>
+    </section>
+
+    <footer class="app-footer">
+      <p>Data from <code>api.takealot.com</code> • Runs on GitHub Pages + Actions + Vercel • Costs $0</p>
+    </footer>
+
+  </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <script src="/app.js"></script>
 </body>
 </html>
