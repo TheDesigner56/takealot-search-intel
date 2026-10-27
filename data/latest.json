@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-26T12:17:33.065874Z",
+  "scraped_at": "2026-10-27T11:37:38.789499Z",
   "queries": [
     {
       "query": "boys toys for 3 year old",
@@ -10,8 +10,8 @@
         "Shirt And Shorts Spiderman Design For Boys 7 Years",
         "Kids Non-Slip Grip Socks 6 Pairs for Boys and Girl",
         "12 Pairs Toddler Boys Non-Slip Cotton Mid-Calf Soc",
-        "White and Grey Rock On Teddy Tracksuit Set for Boy",
-        "4 Pair Cotton Kids Winter Fashion Socks Unisex for"
+        "4 Pair Cotton Kids Winter Fashion Socks Unisex for",
+        "White and Grey Rock On Teddy Tracksuit Set for Boy"
       ],
       "drift_count": 5,
       "products": [
@@ -38,7 +38,7 @@
         {
           "title": "Press and Go Car Toys for 1-3 years Friction Car 6-9-12-18 Months",
           "slug": "press-and-go-car-toys-for-1-3-years-friction-car-6-9-12-18-month",
-          "price_display": "R 299",
+          "price_display": "R 279",
           "price_raw": 415,
           "rating": 5.0,
           "reviews": 20,
@@ -88,8 +88,8 @@
         {
           "title": "12 Pairs Toddler Boys Non-Slip Cotton Mid-Calf Socks for 1-3 Years",
           "slug": "12-pairs-toddler-boys-non-slip-cotton-mid-calf-socks-for-1-3-yea",
-          "price_display": "From R 410",
-          "price_raw": 410,
+          "price_display": "From R 411",
+          "price_raw": 411,
           "rating": 0.0,
           "reviews": 0,
           "brand": "No Brand",
@@ -151,7 +151,7 @@
           "price_display": "From R 599",
           "price_raw": 599,
           "rating": 4.6,
-          "reviews": 318,
+          "reviews": 319,
           "brand": "JBL",
           "tsin": 96935204
         },
@@ -178,19 +178,19 @@
         {
           "title": "Gaming Headset with Noise Cancelling Mic",
           "slug": "gaming-headset-with-noise-cancelling-mic",
-          "price_display": "From R 398",
-          "price_raw": 398,
+          "price_display": "From R 397",
+          "price_raw": 397,
           "rating": 1.0,
           "reviews": 2,
           "brand": "No Brand",
-          "tsin": 102423238
+          "tsin": 102423236
         }
       ]
     },
     {
       "query": "red toy car",
       "niche": "toys",
-      "quality_score": 55.0,
+      "quality_score": 50.0,
       "result_count": 36,
       "drift_items": [],
       "drift_count": 0,
@@ -204,16 +204,6 @@
           "reviews": 0,
           "brand": "No Brand",
           "tsin": 104508279
-        },
-        {
-          "title": "Spider Stunt Car Remote Control Toy for Kids",
-          "slug": "spider-stunt-car-remote-control-toy-for-kids",
-          "price_display": "R 339",
-          "price_raw": 550,
-          "rating": 4.4,
-          "reviews": 11,
-          "brand": "No Brand",
-          "tsin": 100585896
         },
         {
           "title": "Cross-Country Rubicon-Style Off-Road Convertible Vehicle Toy Model",
@@ -274,6 +264,16 @@
           "reviews": 0,
           "brand": "No Brand",
           "tsin": 103222143
+        },
+        {
+          "title": "2.4GHz Transformable RC Stunt Car with Cool LED Lights, Toy for Boys",
+          "slug": "2-4ghz-transformable-rc-stunt-car-with-cool-led-lights-toy-for-b",
+          "price_display": "From R 388",
+          "price_raw": 388,
+          "rating": 5.0,
+          "reviews": 2,
+          "brand": "No Brand",
+          "tsin": 104555807
         }
       ]
     },
@@ -446,14 +446,14 @@
           "tsin": 97631350
         },
         {
-          "title": "Wax Crayons - 6 Pack",
-          "slug": "wax-crayons-6-pack",
-          "price_display": "R 99",
-          "price_raw": 99,
-          "rating": 0.0,
-          "reviews": 0,
-          "brand": "No Brand",
-          "tsin": 91812981
+          "title": "Jar Mel\u00f3 - Cute Dinosaur Beeswax Crayons - 12 Washable & Non-Toxic Col",
+          "slug": "jar-mel-cute-dinosaur-beeswax-crayons-12-washable-non-toxic-colo",
+          "price_display": "R 179",
+          "price_raw": 221,
+          "rating": 5.0,
+          "reviews": 3,
+          "brand": "Jar Mel\u00f3",
+          "tsin": 76496381
         }
       ]
     },
@@ -466,16 +466,6 @@
       "drift_count": 0,
       "products": [
         {
-          "title": "Compatible With PS5 Twin Charging Dock- Multi-Color RGB Lighting",
-          "slug": "compatible-with-ps5-twin-charging-dock-multi-color-rgb-lighting",
-          "price_display": "R 225",
-          "price_raw": 599,
-          "rating": 4.9,
-          "reviews": 41,
-          "brand": "No Brand",
-          "tsin": 99690469
-        },
-        {
           "title": "PS5 Dual Controller Charging Station with LED Charge State Indicator (",
           "slug": "ps5-dual-controller-charging-station-with-led-charge-state-indic",
           "price_display": "From R 229",
@@ -484,6 +474,16 @@
           "reviews": 44,
           "brand": "No Brand",
           "tsin": 97604951
+        },
+        {
+          "title": "Compatible With PS5 Twin Charging Dock- Multi-Color RGB Lighting",
+          "slug": "compatible-with-ps5-twin-charging-dock-multi-color-rgb-lighting",
+          "price_display": "R 225",
+          "price_raw": 599,
+          "rating": 4.9,
+          "reviews": 42,
+          "brand": "No Brand",
+          "tsin": 99690469
         },
         {
           "title": "Dual Sense Charging Station Dock For PS5 Controllers - White",
@@ -516,20 +516,10 @@
           "tsin": 94647847
         },
         {
-          "title": "Sony Playstation 5 Dual sense Wireless Controller Charging Station",
-          "slug": "sony-playstation-5-dual-sense-wireless-controller-charging-stati",
-          "price_display": "R 1,999",
-          "price_raw": 2799,
-          "rating": 4.0,
-          "reviews": 1,
-          "brand": "Sony Playstation",
-          "tsin": 94002780
-        },
-        {
           "title": "Dual Controller Wireless Charging Dock for PS5",
           "slug": "dual-controller-wireless-charging-dock-for-ps5",
-          "price_display": "From R 177",
-          "price_raw": 177,
+          "price_display": "From R 178",
+          "price_raw": 178,
           "rating": 4.8,
           "reviews": 10,
           "brand": "No Brand",
@@ -544,6 +534,16 @@
           "reviews": 0,
           "brand": "MXZXBXZ",
           "tsin": 102537399
+        },
+        {
+          "title": "Charging Docking Station For PS5 Controller Dual Sense SA",
+          "slug": "charging-docking-station-for-ps5-controller-dual-sense-sa",
+          "price_display": "From R 320",
+          "price_raw": 320,
+          "rating": 3.0,
+          "reviews": 2,
+          "brand": "No Brand",
+          "tsin": 99692046
         }
       ]
     },
@@ -598,18 +598,18 @@
         {
           "title": "3-Mode Mechanical Feel Keyboard 2.4G/BT/Wired for Gaming - Office",
           "slug": "3-mode-mechanical-feel-keyboard-2-4g-bt-wired-for-gaming-office",
-          "price_display": "From R 761",
-          "price_raw": 761,
+          "price_display": "From R 738",
+          "price_raw": 738,
           "rating": 0.0,
           "reviews": 0,
           "brand": "No Brand",
-          "tsin": 104805804
+          "tsin": 104805802
         },
         {
           "title": "USB Wired Mini Mechanical Keyboard for Gaming Office",
           "slug": "usb-wired-mini-mechanical-keyboard-for-gaming-office",
-          "price_display": "R 483",
-          "price_raw": 483,
+          "price_display": "R 469",
+          "price_raw": 469,
           "rating": 0.0,
           "reviews": 0,
           "brand": "No Brand",
@@ -618,8 +618,8 @@
         {
           "title": "Wall Mounted Keyboard Holder for Gaming Home Office Dual Mechanical",
           "slug": "wall-mounted-keyboard-holder-for-gaming-home-office-dual-mechani",
-          "price_display": "From R 236",
-          "price_raw": 236,
+          "price_display": "R 270",
+          "price_raw": 528,
           "rating": 0.0,
           "reviews": 0,
           "brand": "No Brand",
@@ -651,7 +651,7 @@
           "price_display": "From R 1,499",
           "price_raw": 1499,
           "rating": 5.0,
-          "reviews": 1,
+          "reviews": 2,
           "brand": "FMUFSIC",
           "tsin": 104875144
         },
@@ -708,7 +708,7 @@
         {
           "title": "Victorio Gaming Chair JUNIOR 8-14 years old",
           "slug": "victorio-gaming-chair-junior-8-14-years-old",
-          "price_display": "R 1,599",
+          "price_display": "From R 1,599",
           "price_raw": 1599,
           "rating": 5.0,
           "reviews": 1,
@@ -738,22 +738,12 @@
         {
           "title": "Mechanical Keyboard 61-Key RGB Backlit for Gaming",
           "slug": "mechanical-keyboard-61-key-rgb-backlit-for-gaming",
-          "price_display": "R 773",
+          "price_display": "R 757",
           "price_raw": 1842,
           "rating": 0.0,
           "reviews": 0,
           "brand": "No Brand",
           "tsin": 106532032
-        },
-        {
-          "title": "Keyboard Joystick Keycap 4-Way WASD Arcade Stick for Mechanical Keyboa",
-          "slug": "keyboard-joystick-keycap-4-way-wasd-arcade-stick-for-mechanical-",
-          "price_display": "From R 248",
-          "price_raw": 248,
-          "rating": 0.0,
-          "reviews": 0,
-          "brand": "No Brand",
-          "tsin": 105990274
         },
         {
           "title": "61 Keys Mechanical Keyboard RGB Backlit Mini Wired for Gaming",
@@ -786,20 +776,10 @@
           "tsin": 105312822
         },
         {
-          "title": "4pcs Cat Paw Resin Keycaps Cute Keyboard Keycaps for Mechanical Gaming",
-          "slug": "4pcs-cat-paw-resin-keycaps-cute-keyboard-keycaps-for-mechanical-",
-          "price_display": "R 185",
-          "price_raw": 318,
-          "rating": 0.0,
-          "reviews": 0,
-          "brand": "No Brand",
-          "tsin": 105419244
-        },
-        {
           "title": "PBT Keycaps Mechanical Keyboard Double Color 108 Keys - Ideal for Typi",
           "slug": "pbt-keycaps-mechanical-keyboard-double-color-108-keys-ideal-for-",
-          "price_display": "R 424",
-          "price_raw": 811,
+          "price_display": "From R 331",
+          "price_raw": 331,
           "rating": 0.0,
           "reviews": 0,
           "brand": "No Brand",
@@ -808,12 +788,32 @@
         {
           "title": "Wireless Mechanical Gaming Keyboard RGB Music Sync for Immersive Gamin",
           "slug": "wireless-mechanical-gaming-keyboard-rgb-music-sync-for-immersive",
-          "price_display": "R 757",
-          "price_raw": 1999,
+          "price_display": "R 699",
+          "price_raw": 999,
           "rating": 5.0,
           "reviews": 1,
           "brand": "Blue Carbon",
           "tsin": 105045505
+        },
+        {
+          "title": "1set Dual Color for Mechanical Keyboard Custom Computer Keyboard Caps",
+          "slug": "1set-dual-color-for-mechanical-keyboard-custom-computer-keyboard",
+          "price_display": "R 517",
+          "price_raw": 1008,
+          "rating": 0.0,
+          "reviews": 0,
+          "brand": "No Brand",
+          "tsin": 104022614
+        },
+        {
+          "title": "Wired Mechanical Keyboard for Gaming Blue Switch",
+          "slug": "wired-mechanical-keyboard-for-gaming-blue-switch",
+          "price_display": "R 765",
+          "price_raw": 1028,
+          "rating": 0.0,
+          "reviews": 0,
+          "brand": "No Brand",
+          "tsin": 103940037
         }
       ]
     },
@@ -826,6 +826,16 @@
       "drift_count": 0,
       "products": [
         {
+          "title": "8K 60Hz HDMI 2.1 Cable, 48Gbps High Speed Gold Plated HDMI Cord",
+          "slug": "8k-60hz-hdmi-2-1-cable-48gbps-high-speed-gold-plated-hdmi-cord",
+          "price_display": "From R 249",
+          "price_raw": 249,
+          "rating": 0.0,
+          "reviews": 0,
+          "brand": "L'volcovICK",
+          "tsin": 106606247
+        },
+        {
           "title": "L Shape High Speed Braided HDMI Cable 1m for TV, PC, PS5 & Xbox",
           "slug": "l-shape-high-speed-braided-hdmi-cable-1m-for-tv-pc-ps5-xbox",
           "price_display": "R 199",
@@ -836,14 +846,14 @@
           "tsin": 105941990
         },
         {
-          "title": "HDMI 2.1 8K Cable 3M - High-Speed for Gaming & 4K TVs",
-          "slug": "hdmi-2-1-8k-cable-3m-high-speed-for-gaming-4k-tvs",
-          "price_display": "R 286",
-          "price_raw": 848,
+          "title": "4K HDMI Splitter 1 in 2 Out with HDMI Cable Included",
+          "slug": "4k-hdmi-splitter-1-in-2-out-with-hdmi-cable-included",
+          "price_display": "R 400",
+          "price_raw": 650,
           "rating": 0.0,
           "reviews": 0,
-          "brand": "No Brand",
-          "tsin": 105072629
+          "brand": "Haiaveng",
+          "tsin": 105912842
         },
         {
           "title": "8K HDMI 2.1 Switcher 3 Input 1 Output for PS5 Xbox PC TV Monitor Proje",
@@ -886,16 +896,6 @@
           "tsin": 100114866
         },
         {
-          "title": "HDMI to HDMI Cable 5m - HDMI 2.1, 8K Ultra HD, 48Gbps, 4K@120Hz- 5m NE",
-          "slug": "hdmi-to-hdmi-cable-5m-hdmi-2-1-8k-ultra-hd-48gbps-4k-120hz-5m-ne",
-          "price_display": "R 170",
-          "price_raw": 309,
-          "rating": 0.0,
-          "reviews": 0,
-          "brand": "NESTY",
-          "tsin": 104846874
-        },
-        {
           "title": "30M HDMI to HDMI Cable for TV, PS5, Xbox, Laptop, Projector-Black",
           "slug": "30m-hdmi-to-hdmi-cable-for-tv-ps5-xbox-laptop-projector-black",
           "price_display": "From R 349",
@@ -910,15 +910,27 @@
     {
       "query": "gaming mouse for small hands",
       "niche": "pc",
-      "quality_score": 68.0,
+      "quality_score": 61.4,
       "result_count": 36,
-      "drift_items": [],
-      "drift_count": 0,
+      "drift_items": [
+        "PCBuilder Small Mouse Pad with Non-Slip Rubber Bas"
+      ],
+      "drift_count": 1,
       "products": [
+        {
+          "title": "PCBuilder Small Mouse Pad with Non-Slip Rubber Base for Office and Gam",
+          "slug": "pcbuilder-small-mouse-pad-with-non-slip-rubber-base-for-office-a",
+          "price_display": "R 164",
+          "price_raw": 164,
+          "rating": 0.0,
+          "reviews": 0,
+          "brand": "PCBuilder",
+          "tsin": 106588962
+        },
         {
           "title": "Sharkoon 8200 DPI Laser Gaming Mouse for Right-Handed Users",
           "slug": "sharkoon-8200-dpi-laser-gaming-mouse-for-right-handed-users",
-          "price_display": "R 546",
+          "price_display": "From R 546",
           "price_raw": 546,
           "rating": 0.0,
           "reviews": 0,
@@ -928,7 +940,7 @@
         {
           "title": "Sharkoon 8200 DPI Laser Gaming Mouse for Right-Handed Users - 2 Pack",
           "slug": "sharkoon-8200-dpi-laser-gaming-mouse-for-right-handed-users-2-pa",
-          "price_display": "R 1,095",
+          "price_display": "From R 1,095",
           "price_raw": 1095,
           "rating": 0.0,
           "reviews": 0,
@@ -948,12 +960,12 @@
         {
           "title": "Cute Frog Ergonomic Mini USB Wired Mouse 1600 DPI for Kids",
           "slug": "cute-frog-ergonomic-mini-usb-wired-mouse-1600-dpi-for-kids",
-          "price_display": "From R 214",
-          "price_raw": 214,
+          "price_display": "From R 339",
+          "price_raw": 339,
           "rating": 0.0,
           "reviews": 0,
           "brand": "No Brand",
-          "tsin": 103192455
+          "tsin": 103192454
         },
         {
           "title": "Kids Wireless Mouse Cute Ergonomic Computer Mouse for Laptop PC",
@@ -978,22 +990,12 @@
         {
           "title": "Redragon FYZU M995 Wired Gaming Mouse - Black",
           "slug": "redragon-fyzu-m995-wired-gaming-mouse-black",
-          "price_display": "From R 380",
-          "price_raw": 380,
+          "price_display": "From R 381",
+          "price_raw": 381,
           "rating": 0.0,
           "reviews": 0,
           "brand": "Redragon",
           "tsin": 100724452
-        },
-        {
-          "title": "Redragon Ultra-Lightweight FYZU M995 PRO Wireless Gaming Mouse - Black",
-          "slug": "redragon-ultra-lightweight-fyzu-m995-pro-wireless-gaming-mouse-b",
-          "price_display": "R 596",
-          "price_raw": 757,
-          "rating": 0.0,
-          "reviews": 0,
-          "brand": "Redragon",
-          "tsin": 103917972
         }
       ]
     },
@@ -1066,16 +1068,6 @@
           "tsin": 93247754
         },
         {
-          "title": "RGB-lit Gaming USB Condenser Microphone Kit, One-Button Mute - USB-C/U",
-          "slug": "rgb-lit-gaming-usb-condenser-microphone-kit-one-button-mute-usb-",
-          "price_display": "From R 663",
-          "price_raw": 663,
-          "rating": 0.0,
-          "reviews": 0,
-          "brand": "HaigesenHouse",
-          "tsin": 104509705
-        },
-        {
           "title": "Gaming USB Microphone for PC Podcast Microphone Kit for Streaming",
           "slug": "gaming-usb-microphone-for-pc-podcast-microphone-kit-for-streamin",
           "price_display": "From R 750",
@@ -1084,6 +1076,16 @@
           "reviews": 0,
           "brand": "No Brand",
           "tsin": 102621173
+        },
+        {
+          "title": "RGB-lit Gaming USB Condenser Microphone Kit, One-Button Mute - USB-C/U",
+          "slug": "rgb-lit-gaming-usb-condenser-microphone-kit-one-button-mute-usb-",
+          "price_display": "From R 663",
+          "price_raw": 663,
+          "rating": 0.0,
+          "reviews": 0,
+          "brand": "HaigesenHouse",
+          "tsin": 104509705
         }
       ]
     },
@@ -1098,8 +1100,8 @@
         {
           "title": "512GB U3 Class10 High Speed Micro SD TF Card for Mobile Drone Camera S",
           "slug": "512gb-u3-class10-high-speed-micro-sd-tf-card-for-mobile-drone-ca",
-          "price_display": "From R 714",
-          "price_raw": 714,
+          "price_display": "R 997",
+          "price_raw": 1196,
           "rating": 0.0,
           "reviews": 0,
           "brand": "No Brand",
@@ -1128,8 +1130,8 @@
         {
           "title": "512GB Micro SD Card - Expand Storage for Phones, Cameras, MP3/MP4, PSP",
           "slug": "512gb-micro-sd-card-expand-storage-for-phones-cameras-mp3-mp4-ps",
-          "price_display": "From R 528",
-          "price_raw": 528,
+          "price_display": "From R 521",
+          "price_raw": 521,
           "rating": 2.5,
           "reviews": 2,
           "brand": "No Brand",
@@ -1158,8 +1160,8 @@
         {
           "title": "1TB micro SD Card - Expand Storage for Phones, Cameras, MP3/MP4, PSP",
           "slug": "1tb-micro-sd-card-expand-storage-for-phones-cameras-mp3-mp4-psp",
-          "price_display": "From R 400",
-          "price_raw": 400,
+          "price_display": "From R 412",
+          "price_raw": 412,
           "rating": 0.0,
           "reviews": 0,
           "brand": "No Brand",
@@ -1208,8 +1210,8 @@
         {
           "title": "Wireless Bluetooth Gaming Earbuds Noise Reduction Low Power with Mic",
           "slug": "wireless-bluetooth-gaming-earbuds-noise-reduction-low-power-with",
-          "price_display": "R 261",
-          "price_raw": 340,
+          "price_display": "R 262",
+          "price_raw": 518,
           "rating": 0.0,
           "reviews": 0,
           "brand": "No Brand",
@@ -1248,8 +1250,8 @@
         {
           "title": "Gaming Headphones With Dual Mic, Noise Cancelling Earbuds",
           "slug": "gaming-headphones-with-dual-mic-noise-cancelling-earbuds",
-          "price_display": "R 297",
-          "price_raw": 387,
+          "price_display": "R 298",
+          "price_raw": 684,
           "rating": 3.7,
           "reviews": 3,
           "brand": "No Brand",
@@ -1328,22 +1330,12 @@
         {
           "title": "270 Racing Steering Wheel & Pedals Set for PC, PS4, Xbox One & Switch",
           "slug": "270-racing-steering-wheel-pedals-set-for-pc-ps4-xbox-one-switch",
-          "price_display": "R 2,997",
-          "price_raw": 4494,
+          "price_display": "R 2,928",
+          "price_raw": 8988,
           "rating": 0.0,
           "reviews": 0,
           "brand": "No Brand",
           "tsin": 105943684
-        },
-        {
-          "title": "PXN USB Converter for PS4 & PS5 Racing Wheels and Joysticks",
-          "slug": "pxn-usb-converter-for-ps4-ps5-racing-wheels-and-joysticks",
-          "price_display": "R 694",
-          "price_raw": 881,
-          "rating": 0.0,
-          "reviews": 0,
-          "brand": "PXN",
-          "tsin": 103204141
         },
         {
           "title": "Racing Steering Wheel Gamepad HHC-P5001 for PS5",
@@ -1354,6 +1346,16 @@
           "reviews": 0,
           "brand": "No Brand",
           "tsin": 94768807
+        },
+        {
+          "title": "PXN USB Converter for PS4 & PS5 Racing Wheels and Joysticks",
+          "slug": "pxn-usb-converter-for-ps4-ps5-racing-wheels-and-joysticks",
+          "price_display": "R 694",
+          "price_raw": 881,
+          "rating": 0.0,
+          "reviews": 0,
+          "brand": "PXN",
+          "tsin": 103204141
         }
       ]
     },
@@ -1371,8 +1373,8 @@
         {
           "title": "Fine Motor Skills Lock Key Toy Compatible with Car",
           "slug": "fine-motor-skills-lock-key-toy-compatible-with-car",
-          "price_display": "R 528",
-          "price_raw": 896,
+          "price_display": "From R 521",
+          "price_raw": 521,
           "rating": 0.0,
           "reviews": 0,
           "brand": "No Brand",
@@ -1381,8 +1383,8 @@
         {
           "title": "Montessori Bead Maze Toy For Toddlers 9 Months To 3 Years Fine Motor S",
           "slug": "montessori-bead-maze-toy-for-toddlers-9-months-to-3-years-fine-m",
-          "price_display": "R 191",
-          "price_raw": 343,
+          "price_display": "From R 165",
+          "price_raw": 165,
           "rating": 0.0,
           "reviews": 0,
           "brand": "No Brand",
@@ -1453,8 +1455,8 @@
     {
       "query": "beginner gaming pc setup under 10000",
       "niche": "pc",
-      "quality_score": 55.4,
-      "result_count": 27,
+      "quality_score": 61.4,
+      "result_count": 29,
       "drift_items": [
         "5-in-1 RGB Gaming Keyboard, Headphones, Speakers, "
       ],
@@ -1469,6 +1471,16 @@
           "reviews": 1,
           "brand": "No Brand",
           "tsin": 105630973
+        },
+        {
+          "title": "Pre-Owned Budget Gaming PC Intel i7 8th Gen 16GB GTX 1050 Ti SSD + HDD",
+          "slug": "pre-owned-budget-gaming-pc-intel-i7-8th-gen-16gb-gtx-1050-ti-ssd",
+          "price_display": "R 7,999",
+          "price_raw": 10000,
+          "rating": 0.0,
+          "reviews": 0,
+          "brand": "No Brand",
+          "tsin": 106619677
         },
         {
           "title": "Antec Ninja - Intel i3 12100f CPU / RTX 3050 6gb GPU - Gaming PC",
@@ -1501,16 +1513,6 @@
           "tsin": 104816693
         },
         {
-          "title": "[ClickTech PreBuilt] Liquid Cooled RX 9060 Ryzen 7 7800X3D \"Panda\"",
-          "slug": "clicktech-prebuilt-liquid-cooled-rx-9060-ryzen-7-7800x3d-panda",
-          "price_display": "R 61,460",
-          "price_raw": 66499,
-          "rating": 0.0,
-          "reviews": 0,
-          "brand": "Click Tech",
-          "tsin": 103303708
-        },
-        {
           "title": "5-in-1 RGB Gaming Keyboard, Headphones, Speakers, and Mouse Pad Set",
           "slug": "5-in-1-rgb-gaming-keyboard-headphones-speakers-and-mouse-pad-set",
           "price_display": "R 362",
@@ -1521,24 +1523,24 @@
           "tsin": 102649788
         },
         {
-          "title": "AMD Ryzen 5 5500 HOME PRO GAMER v2.1 Windows 10 Desktop PC",
-          "slug": "amd-ryzen-5-5500-home-pro-gamer-v2-1-windows-10-desktop-pc",
-          "price_display": "R 18,999",
-          "price_raw": 18999,
-          "rating": 5.0,
-          "reviews": 1,
-          "brand": "No Brand",
-          "tsin": 96758176
+          "title": "[ClickTech PreBuilt] Liquid Cooled RX 9060 Ryzen 7 7800X3D \"Panda\"",
+          "slug": "clicktech-prebuilt-liquid-cooled-rx-9060-ryzen-7-7800x3d-panda",
+          "price_display": "R 61,460",
+          "price_raw": 66499,
+          "rating": 0.0,
+          "reviews": 0,
+          "brand": "Click Tech",
+          "tsin": 103303708
         },
         {
-          "title": "FSP Gamer - AMD Ryzen 5 4500 / GTX 1660 Gaming PC",
-          "slug": "fsp-gamer-amd-ryzen-5-4500-gtx-1660-gaming-pc",
-          "price_display": "R 14,999",
-          "price_raw": 14999,
+          "title": "Antec Gamer - AMD Ryzen 5 5500 / GTX 1660 Gaming PC",
+          "slug": "antec-gamer-amd-ryzen-5-5500-gtx-1660-gaming-pc",
+          "price_display": "R 14,899",
+          "price_raw": 17000,
           "rating": 5.0,
           "reviews": 1,
-          "brand": "FSP",
-          "tsin": 97311224
+          "brand": "Antec",
+          "tsin": 96956354
         }
       ]
     }
@@ -1550,7 +1552,15 @@
       "quality_score": 29.2,
       "drift_count": 5,
       "potential": "HIGH",
-      "price_range": "R 289 - From R 410"
+      "price_range": "R 289 - From R 411"
+    },
+    {
+      "query": "red toy car",
+      "niche": "toys",
+      "quality_score": 50.0,
+      "drift_count": 0,
+      "potential": "MEDIUM",
+      "price_range": "R 299 - From R 388"
     },
     {
       "query": "toys to help with fine motor skills",
@@ -1558,12 +1568,12 @@
       "quality_score": 54.8,
       "drift_count": 2,
       "potential": "MEDIUM",
-      "price_range": "R 528 - R 169"
+      "price_range": "From R 521 - R 169"
     }
   ],
   "summary": {
     "total_queries": 17,
-    "avg_quality": 75.5,
+    "avg_quality": 75.2,
     "high_opportunity_count": 1
   }
 }
